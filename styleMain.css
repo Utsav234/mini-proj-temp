@@ -81,7 +81,7 @@ hr{
     flex: 3;
 }
 
-#steps, #vis
+#vis
 {
     border: 3px solid #003049;
     background-color: #00509d;
@@ -93,7 +93,12 @@ hr{
 
 #steps
 {
+  border: 3px solid #003049;
+    background-color: #00509d;
+    color: white;
     height: 30vh;
+    padding: 2em;
+    overflow-y: auto
 }
 
 .heading
